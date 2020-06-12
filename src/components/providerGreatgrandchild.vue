@@ -15,7 +15,7 @@ export default {
     },
     mounted() {
         setTimeout(() => {
-            this.sampleText = "sample";
+            this.sampleText = "sample!";
         }, 1000);
     },
     computed: {
