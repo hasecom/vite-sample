@@ -1,6 +1,11 @@
 <template>
 <div>
-  <provider-sample />
+    <div>
+        <provider-sample />
+    </div>
+    <div>
+        <errorHandler />
+    </div>
 </div>
 </template>
 
@@ -10,7 +15,7 @@ import providerSample from './components/providerSample.vue'
 export default {
     name: 'App',
     components: {
-        providerSample
+        providerSample,
     }
 }
 </script>
